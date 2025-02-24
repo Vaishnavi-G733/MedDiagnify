@@ -1,0 +1,89 @@
+html{
+  font-size: 18px;
+}
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .logout-button {
+    padding: 10px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .predict-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .image-preview, .result-image {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .image-preview img, .result-image img {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  /* Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.unet-section,
+.unetr-section {
+  margin-bottom: 20px; /* Space between sections */
+  width: 100%; /* Make full width */
+  text-align: left; /* Align text to the left */
+}
+
+h1 {
+  font-size: 2em; /* Adjust header font size */
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 20px; /* Adjust spacing for the subtitles */
+}
+
+/* Additional styling for other elements can be added here */
+

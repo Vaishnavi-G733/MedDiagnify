@@ -1,0 +1,150 @@
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fc; 
+  box-shadow:8px 8px 24px 0px rgba(66,68,90,1);
+  height:800px;
+}
+
+.dateinput{
+  content:"dd";
+
+}
+
+.image {
+  width: 40%;
+  background-color: #E0E7F1;
+  padding: 20px;
+  border-radius: 8px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+
+.signup-form {
+  width: 50%;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  position:center;
+  text-align: center;
+}
+
+.signup__form__div {
+  margin-bottom: 15px;
+  display:flex;
+  flex-direction:column;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  /* border-radius: 4px; */
+  /* border: 1px solid #ccc;
+ */
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.signup-form span {
+  display: block;
+  margin-top: 10px;
+  
+}
+
+.signup-form a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.signup-form a:hover {
+  text-decoration: underline;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.image {
+  width: 40%;
+  background-color: #E0E7F1;
+  padding: 0px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.image img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 0px; 
+}
+
+/* .mailotp {
+  display: flex;
+}
+
+.phnotp {
+  justify-content: center;
+}
+button.margin-right {
+  margin-right: 20px;
+} */
+.otp-buttons {
+  display: flex; /* Align items in a row */
+  /* justify-content: space-between; Space between the buttons */
+  gap: 10px; /* Optional: Space between buttons */
+}
+
+.otp-buttons button {
+  flex: 1; /* Ensure equal width for both buttons */
+  padding: 10px;
+}
+
+
+.otp-buttons button:hover {
+  background-color: #0056b3;
+}
